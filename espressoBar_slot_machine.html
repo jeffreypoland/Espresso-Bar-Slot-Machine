@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Espresso Slot Machine by Jeffrey Poland
+		</title>
+		<!-- Normalise CSS-->
+		<link href="css/normalise.css" rel="stylesheet" type="text/css">
+		<!-- Espresso Slot Machine CSS-->
+		<link href="css/espressoBar_slot_machine.min.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="slotmachine_wrapper">
+			<h1 class="slot_title">
+				Espresso Bar Slot Machine
+			</h1>
+			<!-- Slot machine sign and lights-->
+			<div id="slotmachine">
+				<div class="red_light">
+					<img alt="red light" src="img/redlight.png">
+				</div>
+
+				<div class="lights">
+					<img class="bk" src="img/slot_top.jpg"> <img alt="lights" class="white_lights lightPos" src="img/white_lights.png"> <img alt="lights" class="youWin lightPos" src="img/white_lights.png">
+				</div>
+				<!-- Reels-->
+				<div class="reels">
+					<div class="reels_bk">
+						<img src="img/reels_bk.jpg">
+						<div class="center">
+							<div class="slot" id="reel_one">
+							</div>
+
+							<div class="slot" id="reel_two">
+							</div>
+
+							<div class="slot" id="reel_three">
+							</div>
+						</div>
+					</div>
+				</div>
+				<img class="bk" src="img/slot_bottom.jpg">
+				<div id="play_button">
+					<a>PLAY</a>
+				</div>
+			<!-- Results image-->
+				<div class="result">
+					<img alt="How to play" src="img/game_play.png">
+				</div>
+			
+
+			<div class="slot_foot">
+			</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+		<!-- jQuery Fallback-->
+		<script>window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')</script>
+		<!-- Espresso Bar  -->
+		<script src="js/espressoBar_slot_machine.min.js"></script>
+	</body>
+</html>
