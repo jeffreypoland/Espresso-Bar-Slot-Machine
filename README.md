@@ -1,7 +1,7 @@
 Espresso-Bar-Slot-Machine
 =====================
 
-Espresso Bar Slot Machine game built with HTML, CSS, and JavaScript/jQuery.
+Espresso Bar Slot Machine game is built with HTML, CSS, and JavaScript/jQuery.
 
 ##How to Play
 Match the three required symbols to win a cup of coffee, tea, or espresso.
